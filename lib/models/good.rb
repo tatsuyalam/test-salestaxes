@@ -11,4 +11,9 @@ class Good
     @tax = TaxService.apply_for(self)
   end
 
+  # Final price of product
+  def price_after_tax
+    (@price + @tax).round(2)
+  end
+
 end

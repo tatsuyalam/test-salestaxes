@@ -1,10 +1,10 @@
 class OrderItem
 
   # Properties
-  attr_accessor :product, :quantity
+  attr_accessor :good, :quantity
 
-  def initialize product, quantity
-    @product = product
+  def initialize good, quantity
+    @good = good
     @quantity = quantity
   end
 
