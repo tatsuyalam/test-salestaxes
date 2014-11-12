@@ -1,0 +1,9 @@
+# Ignore bundler config.
+/.bundle
+
+# Lock files
+/*.lock
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
