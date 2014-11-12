@@ -5,6 +5,7 @@ describe Good do
   before :all do
     @book = Good.new "BOK", "book", "book", 12.49
     @music_cd = Good.new "MCD", "music cd", "good", 14.99
+    @chocolate_bar = Good.new "CHO", "chocolate bar", "food", 0.85
   end
 
   describe "initialize" do
@@ -24,6 +25,10 @@ describe Good do
 
     it "@music_cd has a basic tax" do
       expect(@music_cd.tax).to eq(1.5)
+    end
+
+    it "@chocolate_bar not apply basic tax" do
+      expect(@chocolate_bar.tax).to eq(0)
     end
   end
 
