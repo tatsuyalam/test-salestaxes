@@ -14,3 +14,9 @@ Proper object orientated design is important. Each row in the input represents a
 * Install [bundler](http://bundler.io/)
 * Bundle install
 * Run `rspec`
+
+### Next Steps
+
+* Create sale price for order line item and apply Tax Service
+* Save CSV file
+* Use ORM to test
