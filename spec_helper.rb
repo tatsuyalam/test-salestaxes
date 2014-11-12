@@ -1,5 +1,6 @@
 # Require gems
 require 'rspec/collection_matchers'
+require 'securerandom'
 require 'csv'
 
 # Require library
